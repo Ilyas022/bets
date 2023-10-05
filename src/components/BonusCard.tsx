@@ -24,8 +24,6 @@ const BonusCard: React.FC<IBonusCard> = ({ headerIcon }: IBonusCard): JSX.Elemen
   const [isCardOpened, setCardOpened] = useState<boolean>(false)
   const [isDesktop] = useResponsive('DESKTOP')
 
-  console.log(isDesktop)
-
   return (
     <div
       className={
